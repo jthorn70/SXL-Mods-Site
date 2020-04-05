@@ -16,3 +16,34 @@ body{
     display: flex;
     align-items: center;
   }
+
+
+
+.mobileFlexCenter {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2rem;
+}
+
+#HeaderImageDiv {
+    width: 100%;
+    height: 25vh;
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("./images/Header.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#HeaderImageDiv > h1, p {
+   color: black;
+}
+#HeaderImageDiv > h1 {
+    font-size: 5rem;
+}
+#HeaderImageDiv > p {
+    font-size: 1.25rem;
+}
